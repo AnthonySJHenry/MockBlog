@@ -1,0 +1,1 @@
+I am creating a mock blog uto test handlebars.js

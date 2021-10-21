@@ -1,0 +1,9 @@
+{{> header}}
+    <h1>Home</h1>
+    <p>This is a simple blog. This blog was created to study templating. It was made using {{homeBody}}.  Journals below are just filler journals, but posts may be created. See the <a href="/about"><b>about section</b></a>.</p>
+    {{#journals}}
+    <span><b>{{title}}</b></span> <span><a href='/j/{{title}}'>📝</a></span>
+    <p style= 'white-space: nowrap; text-overflow: ellipsis; max-width: 15ch; overflow: hidden;'>{{text}} </p> 
+    <br>
+    {{/journals}}
+{{> footer}}
